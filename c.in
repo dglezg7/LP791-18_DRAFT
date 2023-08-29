@@ -1,0 +1,19 @@
+sName		c			# Body's name
+saModules 	spinbody          # Modules
+
+# Physical Properties
+dMass  -7.1  	        # Mass, negative -> Earth masses
+
+# Orbital Properties
+dSemi    0.02960    # Semi-major axis (AU)
+dEcc     8.0e-5     # Eccentricity (We don't know actual value)
+dInc     89.78      # Orbital inclination (degrees)
+dLongA   0.0        # Longitude of the Ascending node (degrees) (We don't know actual value)
+dLongP   0.0        # Longitude of Pericenter (We don't know actual value)
+dMeanA   0.0        # Mean Anomaly (degrees) (We don't know actual value)
+
+# SpiNBody Properties
+bUseOrbParams	1 # Let's the user input orbital elements
+
+#Output
+saOutputOrder Time -TotEn -TotAngMom PositionXSpiNBody PositionYSpiNBody PositionZSpiNBody VelXSpiNBody VelYSpiNBody VelZSpiNBody SemimajorAxis OrbPeriod Eccentricity Inc LongA LongP MeanLongitude
