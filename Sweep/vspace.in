@@ -1,0 +1,13 @@
+sSrcFolder  .
+sDestFolder ParameterSweep
+sTrialName  Test_
+
+sBodyFile star.in
+
+sBodyFile b.in
+dMass [-0.5, -3.0, -0.5] Massb
+
+sBodyFile c.in
+sBodyFile d.in
+
+sPrimaryFile vpl.in
