@@ -1,0 +1,27 @@
+sSrcFolder  .
+sDestFolder ParameterSweep
+sTrialName  Massb1pt0_
+sSampleMode random
+iSeed 47
+iNumTrials 1080
+
+sBodyFile star.in
+
+sBodyFile b.in
+dEcc [0.1, 0.45, u] Eccb
+dLongP [0.0, 359.999, u] LongPb
+dMeanA [0.0, 359.999, u] MeanAb
+
+sBodyFile c.in
+dEcc [0.1, 0.45, u] Eccc
+dLongP [0.0, 359.999, u] LongPc
+dMeanA [0.0, 359.999, u] MeanAb
+
+
+sBodyFile d.in
+dEcc [0.1, 0.45, u] Eccd 
+dLongP [0.0, 359.999, u] LongPd
+dMeanA [0.0, 359.999, u] MeanAd
+
+
+sPrimaryFile vpl.in
