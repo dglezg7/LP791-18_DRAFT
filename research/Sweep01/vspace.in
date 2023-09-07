@@ -8,20 +8,20 @@ iNumTrials 1080
 sBodyFile star.in
 
 sBodyFile b.in
-dEcc [0.1, 0.45, u] Eccb
+dEcc [0.0, 0.45, u] Eccb
 dLongA [0.0, 359.999, u] LongAb
 dLongP [0.0, 359.999, u] LongPb
 dMeanA [0.0, 359.999, u] MeanAb
 
 sBodyFile c.in
-dEcc [0.1, 0.45, u] Eccc
+dEcc [0.0, 0.45, u] Eccc
 dLongA [0.0, 359.999, u] LongAc
 dLongP [0.0, 359.999, u] LongPc
 dMeanA [0.0, 359.999, u] MeanAb
 
 
 sBodyFile d.in
-dEcc [0.1, 0.45, u] Eccd
+dEcc [0.0, 0.45, u] Eccd
 dLongA [0.0, 359.999, u] LongAd 
 dLongP [0.0, 359.999, u] LongPd
 dMeanA [0.0, 359.999, u] MeanAd
