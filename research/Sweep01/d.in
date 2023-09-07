@@ -7,7 +7,7 @@ dMass  -0.9  	        # Mass, negative -> Earth masses
 # Orbital Properties
 dSemi    0.01991    # Semi-major axis (AU)
 dEcc     1.0e-1     # Eccentricity (We don't know actual value)
-dInc     89.34      # Orbital inclination (degrees)
+dInc     0.66      # Orbital inclination (degrees)
 dLongA   0.0        # Longitude of the Ascending node (degrees) (We don't know actual value)
 dLongP   0.0        # Longitude of Pericenter (We don't know actual value)
 dMeanA   0.0        # Mean Anomaly (degrees) (We don't know actual value)
